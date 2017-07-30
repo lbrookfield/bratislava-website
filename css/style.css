@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Emilys+candy|Princess+Sofia');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*This is the header for all the website pages*/
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'princess sofia', cursive;
+    padding: 20px;
+    background-color: #ffe272;
+    text-decoration: blink;
+}
+
+/*This is the info for all the li on the website*/
+
+nav li {
+    display: inline;
+    font-family: 'Zilla Slab', serif;
+    justify-content: center;
+   
+}
+
+nav li {
+    width: 20%;
+    
+}
+
+/*This is the info for all the li in the ul of the nav*/
+
+nav ul {
+    font-size: 2rem;
+    text-align: center;
+    background-color: #ffe272;
+    
+} 
+
+/*This is the commands for the nav bar on all web pages of the site*/
+
+nav a {
+    text-decoration: none;
+    color:#4256f4;
+    /*padding: 90px 70px;*/
+    padding: 10px 70px;
+    display: table-row;
+    transition:  x25s;
+}
+.home-page {
+    background-image: url("../images/frontpage2.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    
+}
+
+.tour-page {
+    background-image: url("../images/townsquare2.jpeg");
+    background-size: cover;
+}
+
+.places-page {
+    background-image: url("../images/cumil.png");
+    background-size: cover;
+}
+
+.history-page {
+    background-image: url("../images/soldiers.png");
+    background-size: cover;
+}
+.food-page {
+    background-image: url("../images/stew.jpeg");
+    background-size: cover;
+}
+
+.bratislava-history {
+    padding: 20px;
+    font-size: 1.5rem;
+    background:rgba(255,255,255,0.5);
+    width: 600px;
+}
+
+/*These next 3 divs are the tour info on the tour page.*/
+
+.turancar {
+    padding: 20px;
+    font-size: 1.5rem;
+    background:rgba(255,255,255,0.5);
+    width: 600px;
+}
+
+.eurobus {
+    padding: 20px;
+    font-size: 1.5rem;
+    background:rgba(255,255,255,0.5);
+    width: 600px;
+}
+
+.itinerary {
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 600px;
+    background:rgba(255,255,255,0.5);
+}
+
+.sites {
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 600px;
+    background:rgba(255,255,255,0.5);
+    padding-left: 30px;
+}
+
+.food {
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 600px;
+    background:rgba(255,255,255,0.5);
+    padding-left: 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    background:rgba(255,255,255,0.5);
+    width: 440px;
+}
